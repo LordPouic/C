@@ -34,41 +34,41 @@ int AdditionPlus1(int a, int b)
 
 /*
 Exercice 1
-Faire une fonction qui prend en entrée 2 entiers et qui retourne le maximum des deux.
-Faire une fonction qui prend en entrée 2 entiers et qui retourne le minimum des deux.
-Faire une fonction qui prend en entrée 2 entiers et qui retourne la somme des deux.
-Faire une fonction qui prend en entrée 2 entiers et qui retourne la différence entre des deux.
+Faire une fonction qui prend en entrÃ©e 2 entiers et qui retourne le maximum des deux.
+Faire une fonction qui prend en entrÃ©e 2 entiers et qui retourne le minimum des deux.
+Faire une fonction qui prend en entrÃ©e 2 entiers et qui retourne la somme des deux.
+Faire une fonction qui prend en entrÃ©e 2 entiers et qui retourne la diffÃ©rence entre des deux.
 
 Exercice 2
-En utilisant les fonctions de l'exercice 1, créer une fonction qui demande deux chiffres entiers à l'utilisateur et qui ensuite lui propose de choisir l'action
-parmis les 4 de l'éxercice 1 qu'il va faire sur ces deux chiffres.
+En utilisant les fonctions de l'exercice 1, crÃ©er une fonction qui demande deux chiffres entiers Ã  l'utilisateur et qui ensuite lui propose de choisir l'action
+parmis les 4 de l'Ã©xercice 1 ce qu'il va faire sur ces deux chiffres.
 
 Exercice 3
-Créer une fonction Power qui prend en entrée deux chiffres a et b et qui retourne a exposant b (a^b)
+CrÃ©er une fonction Power qui prend en entrÃ©e deux chiffres a et b et qui retourne a exposant b (a^b)
 
 Exercice 4
-Créer une fonction qui prend en entrée un chiffre et qui calcule la somme des retours de la fonction Power pour les chiffres allant de 0 au chiffre entré.
-(Si on rentre 5, le résultat sera : 1^1 + 2^2 + 3^3 + 4^4 + 5^5)
+CrÃ©er une fonction qui prend en entrÃ©e un chiffre et qui calcule la somme des retours de la fonction Power pour les chiffres allant de 0 au chiffre entrÃ©.
+(Si on rentre 5, le rÃ©sultat sera : 1^1 + 2^2 + 3^3 + 4^4 + 5^5)
 
 
 Exercices Part 2
 Exercice 1
-Écrire une fonction distance ayant comme paramètres 4 doubles
-xa,ya et xb,yb qui représentent les coordonnées de deux points A et B
+Ã‰crire une fonction distance ayant comme paramÃ¨tres 4 doubles
+xa,ya et xb,yb qui reprÃ©sentent les coordonnÃ©es de deux points A et B
 et qui renvoie la distance AB.
 
 Exercice 2
-Faire une fonction qui prend en entrée un chiffre et qui renvoie
+Faire une fonction qui prend en entrÃ©e un chiffre et qui renvoie
 1 si le chiffre est un nombre premier et 0 si il ne l'est pas.
 
 Exercice 3
-Grace à la réponse de l'exercice 2, écrire une fonction qui prend en
-entrée un chiffre A et qui affiche les A chiffres entiers premiers
-éxistants.
+Grace Ã  la rÃ©ponse de l'exercice 2, Ã©crire une fonction qui prend en
+entrÃ©e un chiffre A et qui affiche les A chiffres entiers premiers
+Ã©xistants.
 
 Exercice 4
 Sans utiliser de boucles while/for et sans passer par Math.h
-faire une fonction qui prend en paramètres deux chiffre a et b
+faire une fonction qui prend en paramÃ¨tres deux chiffre a et b
 et qui renvoie a^b.
 */
 
