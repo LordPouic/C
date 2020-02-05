@@ -75,3 +75,42 @@ int Menu(int a, int b)
     }
 }
 ```
+
+Faire une fonction qui prend en entrée un chiffre et qui renvoie
+1 si le chiffre est un nombre premier et 0 si il ne l'est pas.
+
+```
+int NbPremier(int x)
+{
+    for(int i=2;i<x;i++)
+    {
+        if (x % i == 0)
+        {
+            return 0;
+        }
+    }
+
+    return 1;
+}
+```
+
+Grace à la réponse de l'exercice 2, écrire une fonction qui prend en
+entrée un chiffre A et qui affiche les A chiffres entiers premiers
+éxistants.
+
+```
+void AfficheNbPremier(int a)
+{
+    int i = 2;
+    int NbPremierAffiche = 0;
+    while (NbPremierAffiche<a)
+    {
+        if (NbPremier(i)==1)
+        {
+            printf("%d \n",i);
+            NbPremierAffiche++;
+        }
+        i++;
+    }
+}
+```
