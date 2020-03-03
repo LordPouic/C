@@ -18,7 +18,8 @@ void Malloc()
     int TableauDynamiqueMauvais[taille]; // -> interdit
         
     int *TableauDynamiqueBien = NULL;
-    TableauDynamiqueBien = malloc(taille * sizeof(int));
+    TableauDynamiqueBien = (int *) malloc(taille * sizeof(int));
+    //le (int *) -> permet de caster le pointeur qui sans est de type (void *)
     
     return 0;
 }
